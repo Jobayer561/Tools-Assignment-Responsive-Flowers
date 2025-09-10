@@ -14,18 +14,19 @@
   width: 177px;
   height: 64px;
 }
-.primary-btn:hover{
-transform: scale(1.05);}
+.primary-btn:hover {
+  transform: scale(1.05);
+}
 .fixed {
   max-width: 1140px;
   margin: 0 auto;
+  gap: 50px;
 }
 header {
   background-color: #e554731a;
 }
 .beautiful_flowers {
   display: flex;
-  gap: 50px;
 }
 .heading {
   color: #272727;
@@ -33,12 +34,11 @@ header {
   font-weight: 800;
 }
 .left-side {
-    margin-top: 50px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   gap: 32px;
   justify-content: center;
-  
 }
 .right-side {
   margin-top: 50px;
@@ -54,4 +54,75 @@ header {
   width: 550px;
   height: 700px;
   justify-items: flex-end;
+}
+.featured {
+  text-align: center;
+}
+.mt {
+  margin-top: 80px;
+}
+.featured h2 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.featured p {
+  color: #27272799;
+  font-size: 18px;
+  font-weight: 400;
+}
+.card {
+  margin-top: 50px;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+.card1 {
+  background-color: #a7216226;
+  border-radius: 250px 250px 0 0;
+  width: 355px;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.card2 {
+  background-color: #0597a026;
+  border-radius: 250px 250px 0 0;
+  width: 355px;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card3 {
+  background-color: #477d1126;
+  border-radius: 250px 250px 0 0;
+  width: 355px;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.image {
+  width: 250px;
+  height: auto;
+}
+.image2 {
+  margin-top: 10px;
+  width: 300px;
+  height: auto;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.title a {
+  color: #272727;
+  font-weight: 700;
 }
