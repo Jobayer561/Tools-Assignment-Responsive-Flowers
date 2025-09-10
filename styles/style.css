@@ -76,12 +76,12 @@ header {
   margin-top: 50px;
   display: flex;
   gap: 24px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .card1 {
   background-color: #a7216226;
   border-radius: 250px 250px 0 0;
-  width: 355px;
+  width: 362px;
   height: 430px;
   display: flex;
   justify-content: center;
@@ -91,7 +91,7 @@ header {
 .card2 {
   background-color: #0597a026;
   border-radius: 250px 250px 0 0;
-  width: 355px;
+  width: 360px;
   height: 430px;
   display: flex;
   justify-content: center;
@@ -101,7 +101,7 @@ header {
 .card3 {
   background-color: #477d1126;
   border-radius: 250px 250px 0 0;
-  width: 355px;
+  width: 362px;
   height: 430px;
   display: flex;
   justify-content: center;
@@ -125,4 +125,62 @@ header {
 .title a {
   color: #272727;
   font-weight: 700;
+}
+.service {
+  padding: 60px 90px;
+  background-color: #2727270d;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.features p {
+  color: #27272799;
+  font-size: 18px;
+  font-weight: 600;
+}
+.discount-bg {
+  background-color: #e554730d;
+}
+.discount {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.div-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.div-left h1 {
+  text-align: center;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.div-left p {
+  color: #27272799;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.div-left button {
+  align-items: center;
+}
+.div-right img {
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
